@@ -9,12 +9,12 @@ public class Example6 {
 
     public static void main(String[] args) {
 
-        Scanner reader = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); // Creates a new Scanner object with the name "scanner"
         System.out.print("Enter a number: ");
 
-        int number = reader.nextInt(); // An integer is a number without decimal places that can be positive, negative, or zero
+        int number = scanner.nextInt(); // An integer is a number without decimal places that can be positive, negative, or zero
         int doubleNumber = number * 2;
         System.out.println("Twice your number is " + doubleNumber);
-        reader.close();
+        scanner.close();
     }
 }
