@@ -6,7 +6,7 @@
     Use / and * to define one
 */
 
-// Syntax highlighting! Keywords and other synactical elements are shown in different colors. 
+// Syntax highlighting! Keywords and other syntactical elements are shown in different colors. 
 
 public class Example1 { //This is a class
     public static void main(String[] args) { // Running code starts in the "main" method. Remember it
